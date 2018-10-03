@@ -1,0 +1,25 @@
+{
+  "name":{"type": "String", "required": true},
+  "_labels":[{
+      "_id":false,
+      "kind":{"type":"String", "enum":["firstName","lastName","prefixToName","title","acronym"]},
+      "label":{"type":"String"}
+  }],
+  "description":{"type":"String"},
+  "instanceOf":{"type":"ObjectID", "ref":"descriptor"},
+  "identifier":[{"type":"String","match":""}],
+  "relations":[{
+    "_id":false,
+    "target":{"type":"ObjectID", "ref":"actor"},
+    "kind":{"type":"String", "enum":["hasParent","partOf","sameAs","hasSibling"]},
+    "annotation":{"type":"String"}
+  }],
+  "beginOfExistence":{"type":"Date"},
+  "endOfExistence":{"type":"Date"},
+  "_authorityRecs":[{
+    "_id":false,
+    "record": {"type":"ObjectID", "ref":"authrec"},
+    "link": {"type":"String", "match":""}
+  }],
+  "_history":[{"type":"ObjectID", "ref":"_history"}]
+}

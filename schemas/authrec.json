@@ -1,0 +1,12 @@
+{
+  "src":{
+    "type":"String",
+    "match":""
+  },
+  "record":{
+    "type":"mixed"
+  },
+  "retrieved":{
+    "type":"Date"
+  }
+}

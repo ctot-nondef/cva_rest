@@ -1,0 +1,21 @@
+{
+  "identifier":{"type":"String","match":""},
+  "firstName":{"type":"String"},
+  "lastName":{"type":"String"},
+  "email":{"type":"String"},
+  "username":{"type":"String","required": "true"},
+  "password": {
+    "type": "String",
+    "required": "true"
+  },
+  "_history":[{"type":"ObjectID", "ref":"_history"}],
+  "images":[{
+      "name":{
+        "type":"String"
+      },
+      "reference":{
+        "type":"ObjectID",
+        "ref":"assetref"
+      }
+  }]  
+}
