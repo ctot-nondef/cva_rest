@@ -1,11 +1,20 @@
 {
   "name":{"type": "String", "required": true},
   "identifier":[{"type":"String","match":""}],
-  "collector": [{"type": "ObjectID", "ref":"actor"}],
+  "creator":[{
+    "_id":false,
+    "id": { "type":"ObjectID", "ref":"actor" },
+    "role": { "type":"ObjectID", "ref":"descriptor" }
+  }],
   "place": [{"type": "ObjectID", "ref":"descriptor"}],
   "beginOfExistence":{"type":"Date"},
   "endOfExistence":{"type":"Date"},
   "description":{"type": "String"},
+  "images":[{
+      "_id":false,
+      "name":{"type":"String"},
+      "reference":{"type":"ObjectID", "ref":"assetref"}
+  }],  
   "references":[{"type":"String"}],
   "comments":[{"type":"String"}],
   "_history":[{"type":"ObjectID", "ref":"_history"}]
