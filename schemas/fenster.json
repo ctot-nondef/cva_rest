@@ -20,6 +20,10 @@
   }],
   "locatedAt": { "type":"ObjectID", "ref": "standort" },
   "isPartOf": { "type":"ObjectID", "ref": "fenster" },
+  "references":[{
+    "ref":{"type":"String"},
+    "pageno":{"type":"String"}
+  }],
   "comments":[{"type":"String"}],
   "_history":[{"type":"ObjectID", "ref":"_history"}]
 }

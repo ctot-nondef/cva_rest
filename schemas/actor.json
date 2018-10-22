@@ -11,7 +11,7 @@
   "relations":[{
     "_id":false,
     "target":{"type":"ObjectID", "ref":"actor"},
-    "kind":{"type":"String", "enum":["hasParent","partOf","sameAs","hasSibling"]},
+    "kind":{"type":"String", "enum":["hasParent","partOf","sameAs","hasSibling","marriedTo"]},
     "annotation":{"type":"String"}
   }],
   "beginOfExistence":{"type":"Date"},

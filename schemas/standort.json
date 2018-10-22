@@ -7,6 +7,16 @@
     "role": { "type":"ObjectID", "ref":"descriptor" }
   }],
   "place": [{"type": "ObjectID", "ref":"descriptor"}],
+  "adress": [{
+    "_id":false,
+    "street":{"type":"String"},
+    "postalcode":{"type":"String"}
+  }],
+  "position":[{
+    "_id":false,
+    "lon":{"type":"String"},
+    "lat":{"type":"String"}
+  }],
   "beginOfExistence":{"type":"Date"},
   "endOfExistence":{"type":"Date"},
   "description":{"type": "String"},
@@ -14,8 +24,11 @@
       "_id":false,
       "name":{"type":"String"},
       "reference":{"type":"ObjectID", "ref":"assetref"}
-  }],  
-  "references":[{"type":"String"}],
+  }],
+  "references":[{
+    "ref":{"type":"String"},
+    "pageno":{"type":"String"}
+  }],
   "comments":[{"type":"String"}],
   "_history":[{"type":"ObjectID", "ref":"_history"}]
 }
