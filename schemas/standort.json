@@ -1,30 +1,14 @@
 {
   "name":{"type": "String", "required": true},
   "identifier":[{"type":"String","match":""}],
-  "creator":[{
-    "_id":false,
-    "id": { "type":"ObjectID", "ref":"actor" },
-    "role": { "type":"ObjectID", "ref":"descriptor" }
-  }],
+  "creator":[{ "type":"ObjectID", "ref":"actor" }],
   "place": [{"type": "ObjectID", "ref":"descriptor"}],
-  "adress": [{
-    "_id":false,
-    "street":{"type":"String"},
-    "postalcode":{"type":"String"}
-  }],
-  "position":[{
-    "_id":false,
-    "lon":{"type":"String"},
-    "lat":{"type":"String"}
-  }],
+  "street":{"type":"String"},
+  "postalcode":{"type":"String"},
   "beginOfExistence":{"type":"Date"},
   "endOfExistence":{"type":"Date"},
   "description":{"type": "String"},
-  "images":[{
-      "_id":false,
-      "name":{"type":"String"},
-      "reference":{"type":"ObjectID", "ref":"assetref"}
-  }],
+  "images":[{"type":"ObjectID", "ref":"assetref"}],
   "references":[{
     "ref":{"type":"String"},
     "pageno":{"type":"String"}
