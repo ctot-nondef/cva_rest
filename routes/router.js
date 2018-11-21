@@ -244,7 +244,8 @@ router.get(`/api/v${CONFIG.version}/jsonschema/:name`, function(req, res, next) 
  *       500:
  *         description: Image processing failed
 */
-router.post(`/api/v${CONFIG.version}/upload`, USER.chkSession , function(req, res, next) {
+router.post(`/api/v${CONFIG.version}/upload`, function(req, res, next) {
+  console.log(req.body);
   if (req.files && req.files.image) {
     let image = req.files.image;
     let name = `${Date.now().valueOf().toString(36)}_${image.name}`

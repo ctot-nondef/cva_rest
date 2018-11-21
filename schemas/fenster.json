@@ -2,24 +2,13 @@
   "name":{"type": "String", "required": true},
   "stufe":{"type": "String"},
   "identifier":[{"type":"String","match":""}],
-  "creator":[{
-    "_id":false,
-    "id": { "type":"ObjectID", "ref":"actor" },
-    "role": { "type":"ObjectID", "ref":"descriptor" }
-  }],
+  "creator":[{ "type":"ObjectID", "ref":"actor" }],
+  "funder":[{ "type":"ObjectID", "ref":"actor" }],
   "created":{"type": "Date"},
-  "classification":[{
-    "_id":false,
-    "aspect": { "type":"ObjectID", "ref": "descriptor" },
-    "descriptor": { "type":"ObjectID", "ref": "descriptor" }
-  }],
-  "images":[{
-      "_id":false,
-      "name":{"type":"String"},
-      "reference":{"type":"ObjectID", "ref":"assetref"}
-  }],
+  "classification":[{ "type":"ObjectID", "ref": "descriptor" }],
+  "images":[{"type":"ObjectID", "ref":"assetref"}],
   "locatedAt": { "type":"ObjectID", "ref": "standort" },
-  "isPartOf": { "type":"ObjectID", "ref": "fenster" },
+  "isPartOf": { "type":"ObjectID", "ref": "fenster" }, 
   "references":[{
     "ref":{"type":"String"},
     "pageno":{"type":"String"}
