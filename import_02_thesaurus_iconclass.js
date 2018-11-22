@@ -10,20 +10,6 @@ const CONFIG =  require('./config.json');
 const IMPORT = require('./lib/import.js');
 const SCHEMA = require('./lib/schema.js');
 SCHEMA.initSchemas();
-
-// init mongodb
-mongoose.connect(`mongodb://${CONFIG.db.user}:${CONFIG.db.pass}@${CONFIG.db.server}/${CONFIG.db.db}?authSource=test`, function(error) {
-  console.log(error);
-});
-var db = mongoose.connection;
-
-
-
-let descriptors = SCHEMA.mongooseModelByName('descriptor');
-let ic = [];
-let ids = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
-var fc = 0;
-
 function fetchICRecs(ids, endpoint, queryparam, success, fail, entity) {
   return new Promise(function(resolve, reject){
     if(ids.length > 0) {
@@ -32,7 +18,7 @@ function fetchICRecs(ids, endpoint, queryparam, success, fail, entity) {
       endpoint.get(``, a).then((res) => {
         if(res.data[0]) {
           success.push(IMPORT.mapICImport(res.data[0]));
-          ids = ids.concat(res.data[0].c);
+          ids = ids.concat(res.data[0].c.filter(t => !t.match(/\(\+[0-9]/)));
           console.log("success", success.length, res.data[0].n);
           console.log("left", ids.length);
         }
@@ -58,26 +44,44 @@ function fetchICRecs(ids, endpoint, queryparam, success, fail, entity) {
       });
     }
     else {
-      fs.writeFileSync(`import/data/${entity}_authrecs.json`, JSON.stringify(success, null, 2));
-      fs.writeFileSync(`import/data/${entity}_fail.json`, JSON.stringify(fail, null, 2));
+      fs.writeFileSync(`import/${entity}_authrecs_${fc}.json`, JSON.stringify(success, null, 2));
       Promise.resolve(array);
     }
   }.bind(this));
 };
 
-let dc = JSON.parse(fs.readFileSync(`${CONFIG.import.dir}/thesau_classes.json`, 'utf8'));
-
-// IMPORT.endpoints.IC.BASE.get('',{ params: {notation: '33B31' }})
-// .then(res => {
-//   let a = IMPORT.mapICImport(res.data[0]);
-//   console.log(a);
-// });
-
-fetchICRecs(ids, IMPORT.endpoints.IC.BASE, 'notation', [], [], 'iconclass');
 
 
+// init mongodb
+mongoose.connect(`mongodb://${CONFIG.db.user}:${CONFIG.db.pass}@${CONFIG.db.server}/${CONFIG.db.db}?authSource=test`).then(
+  () => { /** ready to use. The `mongoose.connect()` promise resolves to undefined. */
+    var db = mongoose.connection;
+    let descriptors = SCHEMA.mongooseModelByName('descriptor');
+    let ic = [];
+    let ids = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+    var fc = 0;
+    let dc = JSON.parse(fs.readFileSync(`${CONFIG.import.dir}/thesau_classes.json`, 'utf8'));
 
-
-
-
-descriptors.insertMany(ic, function(error, docs) {});
+    // fetchICRecs(ids, IMPORT.endpoints.IC.BASE, 'notation', [], [], 'iconclass').then({
+    //
+    // })
+    let idx = 50;
+    let icrecs = [];
+    while (idx + 1) {
+      let b = JSON.parse(fs.readFileSync(`${CONFIG.import.dir}/iconclass_authrecs_${idx}.json`, 'utf8'));
+      icrecs = icrecs.concat(b);
+      idx -= 1;
+      console.log(icrecs.length);
+      descriptors.insertMany(b, function(error, docs) {
+        console.log(error);
+        console.log(docs.length);
+      });
+    }
+    fs.writeFileSync(`import/iconclass_authrecs_full.json`, JSON.stringify(icrecs, null, 2));
+    // descriptors.insertMany(icrecs, function(error, docs) {
+    //   console.log(error);
+    //   console.log(docs.length);
+    // });
+  },
+  err => { console.log(err); }
+);
