@@ -8,7 +8,7 @@
   "classification":[{ "type":"ObjectID", "ref": "descriptor" }],
   "images":[{"type":"ObjectID", "ref":"assetref"}],
   "locatedAt": { "type":"ObjectID", "ref": "standort" },
-  "isPartOf": { "type":"ObjectID", "ref": "fenster" }, 
+  "isPartOf": { "type":"ObjectID", "ref": "fenster" },
   "references":[{
     "ref":{"type":"String"},
     "pageno":{"type":"String"}
