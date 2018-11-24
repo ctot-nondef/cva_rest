@@ -32,7 +32,7 @@ function fetchICRecs(ids, endpoint, queryparam, success, fail, entity) {
       endpoint.get(``, a).then((res) => {
         if(res.data[0]) {
           success.push(IMPORT.mapICImport(res.data[0]));
-          ids = ids.concat(res.data[0].c);
+          ids = ids.concat(res.data[0].c.filter(t => !t.match(/\(\+[0-9]/)));
           console.log("success", success.length, res.data[0].n);
           console.log("left", ids.length);
         }
@@ -58,8 +58,7 @@ function fetchICRecs(ids, endpoint, queryparam, success, fail, entity) {
       });
     }
     else {
-      fs.writeFileSync(`import/data/${entity}_authrecs.json`, JSON.stringify(success, null, 2));
-      fs.writeFileSync(`import/data/${entity}_fail.json`, JSON.stringify(fail, null, 2));
+      fs.writeFileSync(`import/${entity}_authrecs_${fc}.json`, JSON.stringify(success, null, 2));
       Promise.resolve(array);
     }
   }.bind(this));
@@ -67,17 +66,22 @@ function fetchICRecs(ids, endpoint, queryparam, success, fail, entity) {
 
 let dc = JSON.parse(fs.readFileSync(`${CONFIG.import.dir}/thesau_classes.json`, 'utf8'));
 
-// IMPORT.endpoints.IC.BASE.get('',{ params: {notation: '33B31' }})
-// .then(res => {
-//   let a = IMPORT.mapICImport(res.data[0]);
-//   console.log(a);
+fetchICRecs(ids, IMPORT.endpoints.IC.BASE, 'notation', [], [], 'iconclass').then({
+
+})
+// let idx = 27;
+// let icrecs = [];
+// while (idx + 1) {
+//   icrecs = icrecs.concat(JSON.parse(fs.readFileSync(`${CONFIG.import.dir}/iconclass_authrecs_${idx}.json`, 'utf8')));
+//   idx -= 1;
+//   console.log(icrecs.length);
+// }
+// fs.writeFileSync(`import/iconclass_authrecs_full.json`, JSON.stringify(icrecs, null, 2));
+
+
+
+
+// descriptors.insertMany(icrecs, function(error, docs) {
+//   console.log(error);
+//   console.log(docs.length);
 // });
-
-fetchICRecs(ids, IMPORT.endpoints.IC.BASE, 'notation', [], [], 'iconclass');
-
-
-
-
-
-
-descriptors.insertMany(ic, function(error, docs) {});

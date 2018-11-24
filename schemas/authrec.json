@@ -3,9 +3,7 @@
     "type":"String",
     "match":""
   },
-  "record":{
-    "type":"mixed"
-  },
+  "record":{"type":"String"},
   "retrieved":{
     "type":"Date"
   }
