@@ -9,7 +9,9 @@
     "images": [
       "5bf2afbf7ea1280bd51904e0"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1490"
+    ],
     "_history": [],
     "_id": "5bf1b29aa461e00b64180431",
     "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Chorfenster süd IV (Kreuzigungsfenster)",
@@ -17,7 +19,8 @@
     "__v": 0,
     "isPartOf": "5bf1b29aa461e00b64180431",
     "locatedAt": "5bf270eb7ea1280bd5190489",
-    "stufe": "Fenster"
+    "stufe": "Fenster",
+    "created": "1490-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
@@ -45,20 +48,25 @@
       "5bf686b87c4a8501053e1d9a"
     ],
     "funder": [],
-    "classification": [],
+    "classification": [
+      "5bf662ba432d7a00f10719f2"
+    ],
     "images": [
       "5bf2b2357ea1280bd51904e4",
       "5bf429054fc71b0ee2e218fe"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1490"
+    ],
     "_history": [],
     "_id": "5bf2b1e57ea1280bd51904e3",
-    "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Chorfenster süd IV (Kreuzigungsfenster), 2a: Hl. Nikolaus vor einem Gesprenge",
+    "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Chorfenster süd IV (Kreuzigungsfenster), 2a, hl. Nikolaus vor einem Gesprenge",
     "stufe": "Scheibe",
     "references": [],
     "__v": 0,
     "locatedAt": "5bf270eb7ea1280bd5190489",
-    "isPartOf": "5bf1b29aa461e00b64180431"
+    "isPartOf": "5bf1b29aa461e00b64180431",
+    "created": "1490-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
@@ -82,32 +90,47 @@
   },
   {
     "identifier": [],
-    "creator": [],
+    "creator": [
+      "5bf686b87c4a8501053e1d9a"
+    ],
     "funder": [],
-    "classification": [],
+    "classification": [
+      "5bf662b6432d7a00f106f978"
+    ],
     "images": [
       "5bf2bc687ea1280bd51904e8",
       "5bf42f684fc71b0ee2e21901"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1490"
+    ],
     "_history": [],
     "_id": "5bf2bc0c7ea1280bd51904e7",
-    "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Langhausfenster süd VII (Heiligenfenster), 2a: Hl. Helena im Architekturbaldachin",
+    "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Langhausfenster süd VII (Heiligenfenster), 2a: hl. Helena im Architekturbaldachin",
     "stufe": "Scheibe",
     "locatedAt": "5bf270eb7ea1280bd5190489",
     "references": [],
     "__v": 0,
-    "isPartOf": "5bf2bb8d7ea1280bd51904e6"
+    "isPartOf": "5bf2bb8d7ea1280bd51904e6",
+    "created": "1490-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
-    "creator": [],
-    "funder": [],
-    "classification": [],
+    "creator": [
+      "5bf689717c4a8501053e1d9b"
+    ],
+    "funder": [
+      "5bf7b0c553d79e023660b829"
+    ],
+    "classification": [
+      "5bf662b5432d7a00f106e9f3"
+    ],
     "images": [
       "5bf2c72f7ea1280bd51904ea"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: kurz nach 1500, Werkstatt Gumpolt Giltingers?"
+    ],
     "_history": [],
     "_id": "5bf2c7447ea1280bd51904eb",
     "name": "Abgewandert aus Schwaz, Stadtpfarrkirche Unserer Lieben Frau Maria Himmelfahrt, Wappenscheibe Maxlrain-Fraintsperg",
@@ -120,7 +143,9 @@
     "identifier": [],
     "creator": [],
     "funder": [],
-    "classification": [],
+    "classification": [
+      "5bf662b9432d7a00f10716ff"
+    ],
     "images": [
       "5bf2c8317ea1280bd51904ec"
     ],
@@ -141,21 +166,26 @@
       "5bf686b87c4a8501053e1d9a"
     ],
     "funder": [],
-    "classification": [],
+    "classification": [
+      "5bf662b5432d7a00f106dd44"
+    ],
     "images": [
       "5bf433294fc71b0ee2e21903",
       "5bf433414fc71b0ee2e21904",
       "5bf44f354fc71b0ee2e2193a"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1490"
+    ],
     "_history": [],
     "_id": "5bf4334b4fc71b0ee2e21905",
-    "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Chorfenster süd IV (Kreuzigungsfenster), 2b: Muttergottes unter dem Kreuz",
+    "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Chorfenster süd IV (Kreuzigungsfenster), 2b, Muttergottes unter dem Kreuz",
     "stufe": "Scheibe",
     "references": [],
     "__v": 0,
     "locatedAt": "5bf270eb7ea1280bd5190489",
-    "isPartOf": "5bf1b29aa461e00b64180431"
+    "isPartOf": "5bf1b29aa461e00b64180431",
+    "created": "1490-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
@@ -170,7 +200,9 @@
       "5bf433894fc71b0ee2e21906",
       "5bf433964fc71b0ee2e21907"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1490"
+    ],
     "_history": [],
     "_id": "5bf433994fc71b0ee2e21908",
     "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Chorfenster süd IV (Kreuzigungsfenster), 2c: Johannes unter dem Kreuz",
@@ -178,7 +210,8 @@
     "references": [],
     "__v": 0,
     "locatedAt": "5bf270eb7ea1280bd5190489",
-    "isPartOf": "5bf1b29aa461e00b64180431"
+    "isPartOf": "5bf1b29aa461e00b64180431",
+    "created": "1490-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
@@ -191,14 +224,95 @@
       "5bf433d74fc71b0ee2e21909",
       "5bf433e94fc71b0ee2e2190a"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1490"
+    ],
     "_history": [],
     "_id": "5bf433f24fc71b0ee2e2190b",
-    "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Chorfenster süd IV (Kreuzigungsfenster), 2d: Hl. Rupert",
+    "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Chorfenster süd IV (Kreuzigungsfenster), 2d, hl. Rupert",
     "stufe": "Scheibe",
     "references": [],
     "__v": 0,
     "locatedAt": "5bf270eb7ea1280bd5190489",
+    "isPartOf": "5bf1b29aa461e00b64180431",
+    "created": "1490-01-01T00:00:00.000Z"
+  },
+  {
+    "identifier": [],
+    "creator": [
+      "5bf686b87c4a8501053e1d9a"
+    ],
+    "funder": [],
+    "classification": [
+      "5bf662ba432d7a00f1071ec8"
+    ],
+    "images": [
+      "5bf4343b4fc71b0ee2e2190c",
+      "5bf4344c4fc71b0ee2e2190d"
+    ],
+    "comments": [
+      "Datierung: um 1490"
+    ],
+    "_history": [],
+    "_id": "5bf4344d4fc71b0ee2e2190e",
+    "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Chorfenster süd IV (Kreuzigungsfenster), 3d: Weihrauchfass schwingender Engel",
+    "stufe": "Scheibe",
+    "references": [],
+    "__v": 0,
+    "created": "1490-01-01T00:00:00.000Z",
+    "isPartOf": "5bf1b29aa461e00b64180431",
+    "locatedAt": "5bf270eb7ea1280bd5190489"
+  },
+  {
+    "identifier": [],
+    "creator": [
+      "5bf686b87c4a8501053e1d9a"
+    ],
+    "funder": [],
+    "classification": [
+      "5bf662b9432d7a00f10716ff"
+    ],
+    "images": [
+      "5bf434934fc71b0ee2e2190f",
+      "5bf4349a4fc71b0ee2e21910"
+    ],
+    "comments": [
+      "Datierung: um 1490"
+    ],
+    "_history": [],
+    "_id": "5bf4349c4fc71b0ee2e21911",
+    "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Chorfenster süd IV (Kreuzigungsfenster), 3b, Corpus Christi zwischen Fialen",
+    "stufe": "Scheibe",
+    "references": [],
+    "__v": 0,
+    "locatedAt": "5bf270eb7ea1280bd5190489",
+    "isPartOf": "5bf2b1b27ea1280bd51904e2",
+    "created": "1490-01-01T00:00:00.000Z"
+  },
+  {
+    "identifier": [],
+    "creator": [
+      "5bf686b87c4a8501053e1d9a"
+    ],
+    "funder": [],
+    "classification": [
+      "5bf662b9432d7a00f10716ff"
+    ],
+    "images": [
+      "5bf434cb4fc71b0ee2e21912",
+      "5bf434f64fc71b0ee2e21913"
+    ],
+    "comments": [
+      "Datierung: um 1490"
+    ],
+    "_history": [],
+    "_id": "5bf434f84fc71b0ee2e21914",
+    "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Chorfenster süd IV (Kreuzigungsfenster), 3c: Corpus Christi zwischen Fialen",
+    "stufe": "Scheibe",
+    "references": [],
+    "__v": 0,
+    "locatedAt": "5bf270eb7ea1280bd5190489",
+    "created": "1490-01-01T00:00:00.000Z",
     "isPartOf": "5bf1b29aa461e00b64180431"
   },
   {
@@ -207,124 +321,95 @@
       "5bf686b87c4a8501053e1d9a"
     ],
     "funder": [],
-    "classification": [],
-    "images": [
-      "5bf4343b4fc71b0ee2e2190c",
-      "5bf4344c4fc71b0ee2e2190d"
+    "classification": [
+      "5bf662ba432d7a00f1071ec8"
     ],
-    "comments": [],
-    "_history": [],
-    "_id": "5bf4344d4fc71b0ee2e2190e",
-    "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Chorfenster süd IV (Kreuzigungsfenster), 3d: Weihrauchfass schwingender Engel",
-    "stufe": "Scheibe",
-    "references": [],
-    "__v": 0
-  },
-  {
-    "identifier": [],
-    "creator": [
-      "5bf686b87c4a8501053e1d9a"
-    ],
-    "funder": [],
-    "classification": [],
-    "images": [
-      "5bf434934fc71b0ee2e2190f",
-      "5bf4349a4fc71b0ee2e21910"
-    ],
-    "comments": [],
-    "_history": [],
-    "_id": "5bf4349c4fc71b0ee2e21911",
-    "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Chorfenster süd IV (Kreuzigungsfenster), 3b: Corpus Christi zwischen Fialen",
-    "stufe": "Scheibe",
-    "references": [],
-    "__v": 0,
-    "locatedAt": "5bf270eb7ea1280bd5190489"
-  },
-  {
-    "identifier": [],
-    "creator": [
-      "5bf686b87c4a8501053e1d9a"
-    ],
-    "funder": [],
-    "classification": [],
-    "images": [
-      "5bf434cb4fc71b0ee2e21912",
-      "5bf434f64fc71b0ee2e21913"
-    ],
-    "comments": [],
-    "_history": [],
-    "_id": "5bf434f84fc71b0ee2e21914",
-    "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Chorfenster süd IV (Kreuzigungsfenster), 3c: Corpus Christi zwischen Fialen",
-    "stufe": "Scheibe",
-    "references": [],
-    "__v": 0,
-    "locatedAt": "5bf270eb7ea1280bd5190489"
-  },
-  {
-    "identifier": [],
-    "creator": [
-      "5bf686b87c4a8501053e1d9a"
-    ],
-    "funder": [],
-    "classification": [],
     "images": [
       "5bf435394fc71b0ee2e21915",
       "5bf435434fc71b0ee2e21916",
       "5bf44f4e4fc71b0ee2e2193b"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1490"
+    ],
     "_history": [],
     "_id": "5bf435454fc71b0ee2e21917",
-    "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Chorfenster süd IV (Kreuzigungsfenster), 3a: Weihrauchfass schwingender Engel",
+    "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Chorfenster süd IV (Kreuzigungsfenster), 3a, Weihrauchfass schwingender Engel",
     "stufe": "Scheibe",
     "references": [],
     "__v": 0,
-    "locatedAt": "5bf270eb7ea1280bd5190489"
+    "locatedAt": "5bf270eb7ea1280bd5190489",
+    "created": "1490-01-01T00:00:00.000Z",
+    "isPartOf": "5bf1b29aa461e00b64180431"
   },
   {
     "identifier": [],
-    "creator": [],
+    "creator": [
+      "5bf686b87c4a8501053e1d9a"
+    ],
     "funder": [],
-    "classification": [],
+    "classification": [
+      "5bf662b6432d7a00f106f964"
+    ],
     "images": [
       "5bf44a084fc71b0ee2e21918",
       "5bf44a224fc71b0ee2e21919"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1490"
+    ],
     "_history": [],
     "_id": "5bf44a244fc71b0ee2e2191a",
     "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Langhausfenster süd VII (Heiligenfenster), 2b: hl. Katharina",
     "stufe": "Scheibe",
     "references": [],
-    "__v": 0
+    "__v": 0,
+    "created": "1490-01-01T00:00:00.000Z",
+    "isPartOf": "5bf2bb8d7ea1280bd51904e6",
+    "locatedAt": "5bf270eb7ea1280bd5190489"
   },
   {
     "identifier": [],
-    "creator": [],
+    "creator": [
+      "5bf686b87c4a8501053e1d9a"
+    ],
     "funder": [],
-    "classification": [],
+    "classification": [
+      "5bf662b5432d7a00f106e3d7"
+    ],
     "images": [
       "5bf44a7d4fc71b0ee2e2191b",
       "5bf44a8f4fc71b0ee2e2191c"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1490"
+    ],
     "_history": [],
     "_id": "5bf44a914fc71b0ee2e2191d",
-    "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Langhausfenster süd VII (Heiligenfenster), 2c: Hl. Anna Selbdritt",
+    "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Langhausfenster süd VII (Heiligenfenster), 2c: hl. Anna Selbdritt",
     "stufe": "Scheibe",
     "references": [],
-    "__v": 0
+    "__v": 0,
+    "created": "1490-01-01T00:00:00.000Z",
+    "isPartOf": "5bf2bb8d7ea1280bd51904e6",
+    "locatedAt": "5bf270eb7ea1280bd5190489"
   },
   {
     "identifier": [],
-    "creator": [],
+    "creator": [
+      "5bf686b87c4a8501053e1d9a"
+    ],
     "funder": [],
-    "classification": [],
+    "classification": [
+      "5bf662ba432d7a00f1071ec9"
+    ],
     "images": [
       "5bf44aeb4fc71b0ee2e2191e",
       "5bf44afc4fc71b0ee2e2191f"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1490"
+    ],
     "_history": [],
     "_id": "5bf44b004fc71b0ee2e21920",
     "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Langhausfenster süd VII (Heiligenfenster), 3a: Unbekannter Heiliger",
@@ -332,30 +417,44 @@
     "references": [],
     "__v": 0,
     "isPartOf": "5bf2bb8d7ea1280bd51904e6",
-    "locatedAt": "5bf270eb7ea1280bd5190489"
+    "locatedAt": "5bf270eb7ea1280bd5190489",
+    "created": "1490-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
-    "creator": [],
+    "creator": [
+      "5bf686b87c4a8501053e1d9a"
+    ],
     "funder": [],
-    "classification": [],
+    "classification": [
+      "5bf662ba432d7a00f10719b1"
+    ],
     "images": [
       "5bf44b524fc71b0ee2e21921",
       "5bf44b5c4fc71b0ee2e21922"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1490"
+    ],
     "_history": [],
     "_id": "5bf44b5e4fc71b0ee2e21923",
     "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Langhausfenster süd VII (Heiligenfenster), 3b: Hl. Georg",
     "stufe": "Scheibe",
     "references": [],
-    "__v": 0
+    "__v": 0,
+    "created": "1490-01-01T00:00:00.000Z",
+    "isPartOf": "5bf2bb8d7ea1280bd51904e6",
+    "locatedAt": "5bf270eb7ea1280bd5190489"
   },
   {
     "identifier": [],
-    "creator": [],
+    "creator": [
+      "5bf686b87c4a8501053e1d9a"
+    ],
     "funder": [],
-    "classification": [],
+    "classification": [
+      "5bf662ba432d7a00f10719cb"
+    ],
     "images": [
       "5bf44b9f4fc71b0ee2e21924",
       "5bf44baa4fc71b0ee2e21925"
@@ -366,58 +465,86 @@
     "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Langhausfenster süd VII (Heiligenfenster), 3c: Hl. Johannes Evangelist",
     "stufe": "Scheibe",
     "references": [],
-    "__v": 0
+    "__v": 0,
+    "created": "1490-01-01T00:00:00.000Z",
+    "isPartOf": "5bf2bb8d7ea1280bd51904e6",
+    "locatedAt": "5bf270eb7ea1280bd5190489"
   },
   {
     "identifier": [],
-    "creator": [],
+    "creator": [
+      "5bf686b87c4a8501053e1d9a"
+    ],
     "funder": [],
-    "classification": [],
+    "classification": [
+      "5bf662b6432d7a00f106f960"
+    ],
     "images": [
       "5bf44bfb4fc71b0ee2e21927",
       "5bf44c074fc71b0ee2e21928"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1490"
+    ],
     "_history": [],
     "_id": "5bf44c094fc71b0ee2e21929",
     "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Langhausfenster süd VII (Heiligenfenster), 4a: Hl. Barbara",
     "stufe": "Scheibe",
     "references": [],
-    "__v": 0
+    "__v": 0,
+    "created": "1490-01-01T00:00:00.000Z",
+    "isPartOf": "5bf2bb8d7ea1280bd51904e6",
+    "locatedAt": "5bf270eb7ea1280bd5190489"
   },
   {
     "identifier": [],
-    "creator": [],
+    "creator": [
+      "5bf686b87c4a8501053e1d9a"
+    ],
     "funder": [],
     "classification": [],
     "images": [
       "5bf44c3f4fc71b0ee2e2192a",
       "5bf44c544fc71b0ee2e2192b"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1490"
+    ],
     "_history": [],
     "_id": "5bf44c564fc71b0ee2e2192c",
     "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Langhausfenster süd VII (Heiligenfenster), 4b: Hl. Sigismund",
     "stufe": "Scheibe",
     "references": [],
-    "__v": 0
+    "__v": 0,
+    "created": "1490-01-01T00:00:00.000Z",
+    "isPartOf": "5bf2bb8d7ea1280bd51904e6",
+    "locatedAt": "5bf270eb7ea1280bd5190489"
   },
   {
     "identifier": [],
-    "creator": [],
+    "creator": [
+      "5bf686b87c4a8501053e1d9a"
+    ],
     "funder": [],
-    "classification": [],
+    "classification": [
+      "5bf662ba432d7a00f10719b4"
+    ],
     "images": [
       "5bf44ca74fc71b0ee2e2192d",
       "5bf44cae4fc71b0ee2e2192e"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1490"
+    ],
     "_history": [],
     "_id": "5bf44cb64fc71b0ee2e2192f",
     "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Langhausfenster süd VII (Heiligenfenster), 4c: Hl. Ägidius",
     "stufe": "Scheibe",
     "references": [],
-    "__v": 0
+    "__v": 0,
+    "created": "1490-01-01T00:00:00.000Z",
+    "isPartOf": "5bf2bb8d7ea1280bd51904e6",
+    "locatedAt": "5bf270eb7ea1280bd5190489"
   },
   {
     "identifier": [],
@@ -439,13 +566,19 @@
   {
     "identifier": [],
     "creator": [],
-    "funder": [],
-    "classification": [],
+    "funder": [
+      "5bf8244153d79e023660b82c"
+    ],
+    "classification": [
+      "5bf662b5432d7a00f106e9f3"
+    ],
     "images": [
       "5bf44d8a4fc71b0ee2e21932",
       "5bf44dbd4fc71b0ee2e21933"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1500"
+    ],
     "_history": [],
     "_id": "5bf44dbe4fc71b0ee2e21934",
     "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Langhausfenster nord III, 2b Wappen des Ritters Florian Waldauf von Waldenstein",
@@ -453,7 +586,8 @@
     "references": [],
     "__v": 0,
     "isPartOf": "5bf44d2c4fc71b0ee2e21931",
-    "locatedAt": "5bf270eb7ea1280bd5190489"
+    "locatedAt": "5bf270eb7ea1280bd5190489",
+    "created": "1500-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
@@ -475,20 +609,29 @@
   },
   {
     "identifier": [],
-    "creator": [],
-    "funder": [],
+    "creator": [
+      "5bf686b87c4a8501053e1d9a"
+    ],
+    "funder": [
+      "5bf822d053d79e023660b82b"
+    ],
     "classification": [],
     "images": [
       "5bf44e7e4fc71b0ee2e21937",
       "5bf44e834fc71b0ee2e21938"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1490"
+    ],
     "_history": [],
     "_id": "5bf44e8a4fc71b0ee2e21939",
     "name": "Hall, Stadtpfarrkirche Hl. NIkolaus, Langhausfenster nord IV, 2b, Stifterin Christina Maxlrain-Fieger",
     "stufe": "Scheibe",
     "references": [],
-    "__v": 0
+    "__v": 0,
+    "created": "1490-01-01T00:00:00.000Z",
+    "isPartOf": "5bf44e194fc71b0ee2e21936",
+    "locatedAt": "5bf270eb7ea1280bd5190489"
   },
   {
     "identifier": [],
@@ -501,40 +644,8 @@
     "comments": [],
     "_history": [],
     "_id": "5bf59123167e3623e14752f5",
-    "name": "Schwaz, Stadtpfarrkirche Unserer Lieben Frau Maria Himmelfahrt, Langhausfenster süd IV, 1a-1c, 2b",
+    "name": "Schwaz, Stadtpfarrkirche Unserer Lieben Frau Maria Himmelfahrt, Langhausfenster süd IV",
     "stufe": "Fenster",
-    "references": [],
-    "__v": 0
-  },
-  {
-    "identifier": [],
-    "creator": [],
-    "funder": [],
-    "classification": [],
-    "images": [
-      "5bf5928ef37d7124d6787f85"
-    ],
-    "comments": [],
-    "_history": [],
-    "_id": "5bf59181e18bc12400885e96",
-    "name": "Schwaz, Stadtpfarrkirche Unserer Lieben Frau Maria Himmelfahrt, Langhausfenster süd IV, 1a, Schwazer Stadtwappen",
-    "stufe": "Scheibe",
-    "references": [],
-    "__v": 0
-  },
-  {
-    "identifier": [],
-    "creator": [],
-    "funder": [],
-    "classification": [],
-    "images": [
-      "5bf592f5ee4ebd24f5c6bc78"
-    ],
-    "comments": [],
-    "_history": [],
-    "_id": "5bf592a7f527df24e5b37593",
-    "name": "Schwaz, Stadtpfarrkirche Unserer Lieben Frau Maria Himmelfahrt, Langhausfenster süd IV, 1c, Schwazer Stadtwappen",
-    "stufe": "Scheibe",
     "references": [],
     "__v": 0,
     "locatedAt": "5bf2c6b37ea1280bd51904e9"
@@ -542,6 +653,52 @@
   {
     "identifier": [],
     "creator": [],
+    "funder": [],
+    "classification": [
+      "5bf662ba432d7a00f1071b6f"
+    ],
+    "images": [
+      "5bf5928ef37d7124d6787f85"
+    ],
+    "comments": [
+      "Datierung: frühes 16. Jahrhundert oder 1729"
+    ],
+    "_history": [],
+    "_id": "5bf59181e18bc12400885e96",
+    "name": "Schwaz, Stadtpfarrkirche Unserer Lieben Frau Maria Himmelfahrt, Langhausfenster süd IV, 1a, Schwazer Stadtwappen",
+    "stufe": "Scheibe",
+    "references": [],
+    "__v": 0,
+    "isPartOf": "5bf59123167e3623e14752f5",
+    "locatedAt": "5bf2c6b37ea1280bd51904e9"
+  },
+  {
+    "identifier": [],
+    "creator": [],
+    "funder": [],
+    "classification": [
+      "5bf662ba432d7a00f1071b6f"
+    ],
+    "images": [
+      "5bf592f5ee4ebd24f5c6bc78"
+    ],
+    "comments": [
+      "Datierung: frühes 16. Jahrhundert oder 1729"
+    ],
+    "_history": [],
+    "_id": "5bf592a7f527df24e5b37593",
+    "name": "Schwaz, Stadtpfarrkirche Unserer Lieben Frau Maria Himmelfahrt, Langhausfenster süd IV, 1c, Schwazer Stadtwappen",
+    "stufe": "Scheibe",
+    "references": [],
+    "__v": 0,
+    "locatedAt": "5bf2c6b37ea1280bd51904e9",
+    "isPartOf": "5bf59123167e3623e14752f5"
+  },
+  {
+    "identifier": [],
+    "creator": [
+      "5bf689717c4a8501053e1d9b"
+    ],
     "funder": [],
     "classification": [
       "5bf662af432d7a00f10688a7"
@@ -558,11 +715,14 @@
     "references": [],
     "__v": 0,
     "isPartOf": "5bf59123167e3623e14752f5",
-    "locatedAt": "5bf2c6b37ea1280bd51904e9"
+    "locatedAt": "5bf2c6b37ea1280bd51904e9",
+    "created": "1506-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
-    "creator": [],
+    "creator": [
+      "5bf689717c4a8501053e1d9b"
+    ],
     "funder": [],
     "classification": [
       "5bf662af432d7a00f10688a7"
@@ -579,7 +739,9 @@
     "stufe": "Scheibe",
     "references": [],
     "__v": 0,
-    "locatedAt": "5bf2c6b37ea1280bd51904e9"
+    "locatedAt": "5bf2c6b37ea1280bd51904e9",
+    "isPartOf": "5bf2b1b27ea1280bd51904e2",
+    "created": "1506-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
@@ -592,7 +754,7 @@
     "comments": [],
     "_history": [],
     "_id": "5bf59f900697a129580bf57e",
-    "name": "Schwaz, Stadtpfarrkirche Unserer Lieben Frau Maria Himmelfahrt, Langhausfenster süd IX, 2a, 2c, 3b, 4a, 4c",
+    "name": "Schwaz, Stadtpfarrkirche Unserer Lieben Frau Maria Himmelfahrt, Langhausfenster süd IX",
     "stufe": "Fenster",
     "references": [],
     "__v": 0,
@@ -600,9 +762,13 @@
   },
   {
     "identifier": [],
-    "creator": [],
+    "creator": [
+      "5bf7a8e653d79e023660b828"
+    ],
     "funder": [],
-    "classification": [],
+    "classification": [
+      "5bf662b5432d7a00f106e9f3"
+    ],
     "images": [
       "5bf59ff9cd5fc02974278052",
       "5bf6567bc61d18540cf74b98"
@@ -615,18 +781,26 @@
     "references": [],
     "__v": 0,
     "isPartOf": "5bf59f900697a129580bf57e",
-    "locatedAt": "5bf2c6b37ea1280bd51904e9"
+    "locatedAt": "5bf2c6b37ea1280bd51904e9",
+    "created": "1515-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
-    "creator": [],
+    "creator": [
+      "5bf7a8e653d79e023660b828"
+    ],
     "funder": [],
-    "classification": [],
+    "classification": [
+      "5bf662b5432d7a00f106e9f3"
+    ],
     "images": [
       "5bf65500744fd353e2401494",
-      "5bf65643c61d18540cf74b95"
+      "5bf65643c61d18540cf74b95",
+      "5bf7a29c53d79e023660b826"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: zwischen 1515 und 1520"
+    ],
     "_history": [],
     "_id": "5bf654e553860353d2df1847",
     "name": "Schwaz, Stadtpfarrkirche Unserer Lieben Frau Maria Himmelfahrt, Langhausfenster süd IX, 2c, Wappenhalter der Bäcker",
@@ -634,33 +808,48 @@
     "references": [],
     "__v": 0,
     "isPartOf": "5bf59f900697a129580bf57e",
-    "locatedAt": "5bf2c6b37ea1280bd51904e9"
+    "locatedAt": "5bf2c6b37ea1280bd51904e9",
+    "created": "1515-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
-    "creator": [],
+    "creator": [
+      "5bf686b87c4a8501053e1d9a"
+    ],
     "funder": [],
-    "classification": [],
+    "classification": [
+      "5bf662b3432d7a00f106c979"
+    ],
     "images": [
       "5bf65661c61d18540cf74b96",
       "5bf65665c61d18540cf74b97"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1490"
+    ],
     "_history": [],
     "_id": "5bf65622c61d18540cf74b94",
     "name": "Schwaz, Stadtpfarrkirche Unserer Lieben Frau Maria Himmelfahrt, Langhausfenster süd IX, 3b, Maria auf der Mondkugel",
     "stufe": "Scheibe",
     "references": [],
-    "__v": 0
+    "__v": 0,
+    "isPartOf": "5bf59f900697a129580bf57e",
+    "locatedAt": "5bf2c6b37ea1280bd51904e9",
+    "created": "1490-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
-    "creator": [],
+    "creator": [
+      "5bf7a8e653d79e023660b828"
+    ],
     "funder": [],
-    "classification": [],
+    "classification": [
+      "5bf662ba432d7a00f107198a"
+    ],
     "images": [
       "5bf65786fefd7f5445485fe0",
-      "5bf657b0fefd7f5445485fe1"
+      "5bf657b0fefd7f5445485fe1",
+      "5bf7a28053d79e023660b825"
     ],
     "comments": [],
     "_history": [],
@@ -674,24 +863,35 @@
   },
   {
     "identifier": [],
-    "creator": [],
+    "creator": [
+      "5bf7a8e653d79e023660b828"
+    ],
     "funder": [],
-    "classification": [],
+    "classification": [
+      "5bf662ba432d7a00f10719a8"
+    ],
     "images": [
       "5bf657e1fefd7f5445485fe3",
       "5bf65807fefd7f5445485fe4"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: zwischen 1515 und 1520"
+    ],
     "_history": [],
     "_id": "5bf65814fefd7f5445485fe5",
     "name": "Schwaz, Stadtpfarrkirche Unserer Lieben Frau Maria Himmelfahrt, Langhausfenster süd IX, 4c, hl. Florian",
     "stufe": "Scheibe",
     "references": [],
-    "__v": 0
+    "__v": 0,
+    "isPartOf": "5bf59f900697a129580bf57e",
+    "locatedAt": "5bf2c6b37ea1280bd51904e9",
+    "created": "1515-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
-    "creator": [],
+    "creator": [
+      "5bf686b87c4a8501053e1d9a"
+    ],
     "funder": [],
     "classification": [],
     "images": [
@@ -700,16 +900,21 @@
     "comments": [],
     "_history": [],
     "_id": "5bf65855fefd7f5445485fe7",
-    "name": "Schwaz, Stadtpfarrkirche Unserer Lieben Frau Maria Himmelfahrt, Langhausfenster nord VIII, 2b",
+    "name": "Schwaz, Stadtpfarrkirche Unserer Lieben Frau Maria Himmelfahrt, Langhausfenster nord VIII",
     "stufe": "Fenster",
     "references": [],
-    "__v": 0
+    "__v": 0,
+    "locatedAt": "5bf2c6b37ea1280bd51904e9"
   },
   {
     "identifier": [],
-    "creator": [],
+    "creator": [
+      "5bf686b87c4a8501053e1d9a"
+    ],
     "funder": [],
-    "classification": [],
+    "classification": [
+      "5bf662b3432d7a00f106c979"
+    ],
     "images": [
       "5bf658aafefd7f5445485fe8",
       "5bf658c1fefd7f5445485fe9"
@@ -720,11 +925,16 @@
     "name": "Schwaz, Stadtpfarrkirche Unserer Lieben Frau Maria Himmelfahrt, Langhausfenster nord VIII, 2b, Maria mit Kind im Strahlenkranz",
     "stufe": "Scheibe",
     "references": [],
-    "__v": 0
+    "__v": 0,
+    "isPartOf": "5bf65855fefd7f5445485fe7",
+    "locatedAt": "5bf2c6b37ea1280bd51904e9",
+    "created": "1490-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
-    "creator": [],
+    "creator": [
+      "5bf689717c4a8501053e1d9b"
+    ],
     "funder": [],
     "classification": [
       "5bf662b3432d7a00f106c8d4"
@@ -732,7 +942,9 @@
     "images": [
       "5bf65b0adc3d5a54e8b0f0be"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: kurz nach 1500, Werkstatt Gumpolt Giltingers"
+    ],
     "_history": [],
     "_id": "5bf65bfcdc3d5a54e8b0f0bf",
     "name": "Abgewandert aus Schwaz, Stadtpfarrkirche Unserer Lieben Frau Maria Himmelfahrt, Gnadenstuhl",
@@ -752,18 +964,23 @@
       "5bf67c2a7c4a8501053e1d67",
       "5bf67c527c4a8501053e1d68"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: 3. Viertel des 15. Jahrhunderts"
+    ],
     "_history": [],
     "_id": "5bf67c587c4a8501053e1d69",
     "name": "Schwaz, Totenkapelle Hll. Michael und Veit, Langhausfenster süd III, 2b, Kruzifixus",
     "stufe": "Scheibe",
     "references": [],
-    "__v": 0
+    "__v": 0,
+    "locatedAt": "5bf67b157c4a8501053e1d5c"
   },
   {
     "identifier": [],
     "creator": [],
-    "funder": [],
+    "funder": [
+      "5bf8100253d79e023660b82a"
+    ],
     "classification": [],
     "images": [
       "5bf67d047c4a8501053e1d7b"
@@ -771,68 +988,97 @@
     "comments": [],
     "_history": [],
     "_id": "5bf67d067c4a8501053e1d7c",
-    "name": "Weitau, Filial- und ehem. Spitalskirche St. Nikolaus, Chorfenster I, 1a-5b",
+    "name": "Weitau, Filial- und ehem. Spitalskirche St. Nikolaus, Chorfenster I",
     "stufe": "Scheibe",
     "references": [],
     "__v": 0,
-    "locatedAt": "5bf5c83cd3203e33e3ef5dd4"
+    "locatedAt": "5bf5c83cd3203e33e3ef5dd4",
+    "created": "1470-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
     "creator": [],
-    "funder": [],
-    "classification": [],
+    "funder": [
+      "5bf8100253d79e023660b82a"
+    ],
+    "classification": [
+      "5bf662ba432d7a00f10719f2"
+    ],
     "images": [
       "5bf67d747c4a8501053e1d7d",
       "5bf67dd67c4a8501053e1d82"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1470"
+    ],
     "_history": [],
     "_id": "5bf67d767c4a8501053e1d7e",
     "name": "Weitau, Filial- und ehem. Spitalskirche St. Nikolaus, Chorfenster I, 1a, hl. Nikolaus mit dem Stifter der Kirche Ulrich von Velben",
     "stufe": "Scheibe",
     "references": [],
     "__v": 0,
-    "isPartOf": "5bf67d067c4a8501053e1d7c"
+    "isPartOf": "5bf67d067c4a8501053e1d7c",
+    "locatedAt": "5bf5c83cd3203e33e3ef5dd4",
+    "created": "1470-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
     "creator": [],
-    "funder": [],
-    "classification": [],
+    "funder": [
+      "5bf8100253d79e023660b82a"
+    ],
+    "classification": [
+      "5bf662b6432d7a00f106f980"
+    ],
     "images": [
       "5bf67db57c4a8501053e1d7f",
       "5bf67dbb7c4a8501053e1d80"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1470"
+    ],
     "_history": [],
     "_id": "5bf67dbc7c4a8501053e1d81",
     "name": "Weitau, Filial- und ehem. Spitalskirche St. Nikolaus, Chorfenster I, 1b, hl. Margaretha mit Frauen der historischen Stifterfamilie Elisabeth und Gertrud",
     "stufe": "Scheibe",
     "references": [],
-    "__v": 0
+    "__v": 0,
+    "created": "1470-01-01T00:00:00.000Z",
+    "isPartOf": "5bf67d067c4a8501053e1d7c",
+    "locatedAt": "5bf5c83cd3203e33e3ef5dd4"
   },
   {
     "identifier": [],
     "creator": [],
-    "funder": [],
-    "classification": [],
+    "funder": [
+      "5bf8100253d79e023660b82a"
+    ],
+    "classification": [
+      "5bf662ba432d7a00f1071979"
+    ],
     "images": [
       "5bf67e247c4a8501053e1d83",
       "5bf67e307c4a8501053e1d84"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1470"
+    ],
     "_history": [],
     "_id": "5bf67e317c4a8501053e1d85",
     "name": "Weitau, Filial- und ehem. Spitalskirche St. Nikolaus, Chorfenster I, 2a, hl. Andreas mit dem Stifter der Glasgemälde Johannes Strauss",
     "stufe": "Scheibe",
     "references": [],
-    "__v": 0
+    "__v": 0,
+    "isPartOf": "5bf67d067c4a8501053e1d7c",
+    "locatedAt": "5bf5c83cd3203e33e3ef5dd4",
+    "created": "1470-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
     "creator": [],
-    "funder": [],
+    "funder": [
+      "5bf8100253d79e023660b82a"
+    ],
     "classification": [
       "5bf662b5432d7a00f106e3d7"
     ],
@@ -840,19 +1086,25 @@
       "5bf67e5c7c4a8501053e1d86",
       "5bf67e637c4a8501053e1d87"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1470"
+    ],
     "_history": [],
     "_id": "5bf67e657c4a8501053e1d88",
     "name": "Weitau, Filial- und ehem. Spitalskirche St. Nikolaus, Chorfenster I, 2b, hl. Anna Selbdritt",
     "stufe": "Scheibe",
     "references": [],
     "__v": 0,
-    "locatedAt": "5bf5c83cd3203e33e3ef5dd4"
+    "locatedAt": "5bf5c83cd3203e33e3ef5dd4",
+    "isPartOf": "5bf67d067c4a8501053e1d7c",
+    "created": "1470-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
     "creator": [],
-    "funder": [],
+    "funder": [
+      "5bf8100253d79e023660b82a"
+    ],
     "classification": [
       "5bf662b2432d7a00f106be34"
     ],
@@ -860,7 +1112,9 @@
       "5bf67ea17c4a8501053e1d89",
       "5bf67ea67c4a8501053e1d8a"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1470"
+    ],
     "_history": [],
     "_id": "5bf67ea67c4a8501053e1d8b",
     "name": "Weitau, Filial- und ehem. Spitalskirche St. Nikolaus, Chorfenster I, 3a, hl. Sixtus mit Stifter des Chores Bischof Ulrich II. von Plankenfels",
@@ -868,18 +1122,25 @@
     "references": [],
     "__v": 0,
     "isPartOf": "5bf67d067c4a8501053e1d7c",
-    "locatedAt": "5bf5c83cd3203e33e3ef5dd4"
+    "locatedAt": "5bf5c83cd3203e33e3ef5dd4",
+    "created": "1470-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
     "creator": [],
-    "funder": [],
-    "classification": [],
+    "funder": [
+      "5bf8100253d79e023660b82a"
+    ],
+    "classification": [
+      "5bf662ba432d7a00f1071a0b"
+    ],
     "images": [
       "5bf67ed27c4a8501053e1d8c",
       "5bf67edb7c4a8501053e1d8d"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1470"
+    ],
     "_history": [],
     "_id": "5bf67edd7c4a8501053e1d8e",
     "name": "Weitau, Filial- und ehem. Spitalskirche St. Nikolaus, Chorfenster I, 3b, hl. Sebastian",
@@ -887,18 +1148,25 @@
     "references": [],
     "__v": 0,
     "isPartOf": "5bf67d067c4a8501053e1d7c",
-    "locatedAt": "5bf5c83cd3203e33e3ef5dd4"
+    "locatedAt": "5bf5c83cd3203e33e3ef5dd4",
+    "created": "1470-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
     "creator": [],
-    "funder": [],
-    "classification": [],
+    "funder": [
+      "5bf8100253d79e023660b82a"
+    ],
+    "classification": [
+      "5bf662b6432d7a00f106f960"
+    ],
     "images": [
       "5bf67f017c4a8501053e1d8f",
       "5bf67f077c4a8501053e1d90"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1470"
+    ],
     "_history": [],
     "_id": "5bf67f097c4a8501053e1d91",
     "name": "Weitau, Filial- und ehem. Spitalskirche St. Nikolaus, Chorfenster I, 4a, hl. Barbara",
@@ -906,19 +1174,24 @@
     "references": [],
     "__v": 0,
     "isPartOf": "5bf67d067c4a8501053e1d7c",
-    "locatedAt": "5bf5c83cd3203e33e3ef5dd4"
+    "locatedAt": "5bf5c83cd3203e33e3ef5dd4",
+    "created": "1470-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
     "creator": [],
-    "funder": [],
+    "funder": [
+      "5bf8100253d79e023660b82a"
+    ],
     "classification": [
       "5bf662b3432d7a00f106c08b"
     ],
     "images": [
       "5bf67f2d7c4a8501053e1d92"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1470"
+    ],
     "_history": [],
     "_id": "5bf67f587c4a8501053e1d93",
     "name": "Weitau, Filial- und ehem. Spitalskirche St. Nikolaus, Chorfenster I, 4b, hl. Dorothea",
@@ -926,41 +1199,59 @@
     "references": [],
     "__v": 0,
     "locatedAt": "5bf5c83cd3203e33e3ef5dd4",
-    "isPartOf": "5bf67d067c4a8501053e1d7c"
+    "isPartOf": "5bf67d067c4a8501053e1d7c",
+    "created": "1470-01-01T00:00:00.000Z"
   },
   {
     "identifier": [],
     "creator": [],
-    "funder": [],
-    "classification": [],
+    "funder": [
+      "5bf8100253d79e023660b82a"
+    ],
+    "classification": [
+      "5bf662b6432d7a00f106f95b"
+    ],
     "images": [
       "5bf67f837c4a8501053e1d94",
       "5bf67f8a7c4a8501053e1d95"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1470"
+    ],
     "_history": [],
     "_id": "5bf67f8b7c4a8501053e1d96",
     "name": "Weitau, Filial- und ehem. Spitalskirche St. Nikolaus, Chorfenster I, 5a, hl. Afra",
     "stufe": "Scheibe",
     "references": [],
-    "__v": 0
+    "__v": 0,
+    "created": "1470-01-01T00:00:00.000Z",
+    "isPartOf": "5bf67d067c4a8501053e1d7c",
+    "locatedAt": "5bf5c83cd3203e33e3ef5dd4"
   },
   {
     "identifier": [],
     "creator": [],
-    "funder": [],
-    "classification": [],
+    "funder": [
+      "5bf8100253d79e023660b82a"
+    ],
+    "classification": [
+      "5bf662b6432d7a00f106f984"
+    ],
     "images": [
       "5bf67fb57c4a8501053e1d97",
       "5bf67fbe7c4a8501053e1d98"
     ],
-    "comments": [],
+    "comments": [
+      "Datierung: um 1470"
+    ],
     "_history": [],
     "_id": "5bf67fc07c4a8501053e1d99",
     "name": "Weitau, Filial- und ehem. Spitalskirche St. Nikolaus, Chorfenster I, 5b, hl. Maria Magdalena",
     "stufe": "Scheibe",
     "references": [],
     "__v": 0,
-    "locatedAt": "5bf5c83cd3203e33e3ef5dd4"
+    "locatedAt": "5bf5c83cd3203e33e3ef5dd4",
+    "created": "1470-01-01T00:00:00.000Z",
+    "isPartOf": "5bf67d067c4a8501053e1d7c"
   }
 ]

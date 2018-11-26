@@ -27,7 +27,11 @@ app.use(bodyParser.json());
 app.use(methodOverride());
 app.use(cors({
   credentials: true,
-  origin: ["http://localhost:8080","http://cva.hephaistos.arz.oeaw.ac.at", "https://cva.acdh-dev.oeaw.ac.at"],
+  origin: [
+    "http://localhost:8080",
+    "http://cva.hephaistos.arz.oeaw.ac.at",
+    "https://cva.acdh-dev.oeaw.ac.at"
+  ],
   exposedHeaders: ["X-Total-Count"]
 }));
 app.use(fileUpload());

@@ -5,6 +5,7 @@ const cors = require('cors');
 const USER = require('../lib/auth.js');
 const SCHEMA = require('../lib/schema.js');
 const IMPORT = require('../lib/import.js');
+const ASSETS = require('../lib/asset.js');
 const CONFIG =  require('../config.json');
 
 USER.initUser();
@@ -249,7 +250,9 @@ router.post(`/api/v${CONFIG.version}/upload`, function(req, res, next) {
   if (req.files && req.files.image) {
     let image = req.files.image;
     let name = `${Date.now().valueOf().toString(36)}_${image.name}`
-    image.mv(`./asset/img/${name}`, function(err) {
+    image.mv(`asset/img/${name}`, function(err) {
+      ASSETS.makeImgThumb(`asset/img/${name}`, {width: 220, height: 220}, 90, 'thumb');
+      ASSETS.makeImgThumb(`asset/img/${name}`, {width: 1500, height: 1500}, 90, 'preview');
       if (err) return res.status(500).json({error:'Processing failed'});
       SCHEMA.mongooseModelByName('assetref').create({
         name: image.name,
